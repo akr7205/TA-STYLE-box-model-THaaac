@@ -48,9 +48,10 @@ table {
 }
 h1{
     font-size: 36px;
-    border:1px solid  #D18C1D;
+    border:1px solid  red;
     margin: 10px;
     padding: 10px;
+    background-color:#D18C1D; ;
 }
 p{height: 400px;
    width: 600px;
@@ -78,5 +79,6 @@ footer{
     border-bottom-style: dashed;
     border-color: blue;
     border-width: 3px;
+    text-decoration: none;
     
 }
