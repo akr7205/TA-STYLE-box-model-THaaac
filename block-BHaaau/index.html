@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Box Model 3</title>
+</head>
+<body>
+   <header> 
+       <h1>The Box Model,Box-Sizing & Box-Shadow</h1>
+   </header>
+   <hr>
+   <main>
+       <section>
+           <h2>Excercise 1</h2>
+           <div class="box"> </div>
+           <div class="marker-container">
+               <div class="marker">
+                <span class="circle content"></span>
+                <span>Content</span>
+               </div>
+               <div class="marker">
+                <span class="circle padding"></span>
+                <span>Padding</span>
+               </div>
+               <div class="marker">
+                <span class="circle border"></span>
+                <span>Border</span>
+               </div>
+               <div class="marker">
+                <span class="circle margin"></span>
+                <span>Margin</span>
+               </div>
+           </div>
+           <section>
+               <h2>Excercise 2</h2>
+               <p>no border on these boxes</p>
+               <div class="parent">
+                   <div class="child"> </div>
+                   <div class ="child"> </div>
+                   <div class ="child"> </div>
+               </div>
+               <hr>
+           </section>
+           <section>
+               <p>1px border on these boxes</p>
+               <div class="parent">
+                <div class="child box1"> </div>
+                <div class ="child box1"> </div>
+                <div class ="child box1"> </div>
+            </div>
+           </section>
+           <section>
+               <p>1px border on these boxes but they are in same line</p>
+              <div class="parent">
+                <div class="child box1 border-box" > </div>
+                <div class ="child box1 border-box"> </div>
+                <div class ="child box1 border-box"> </div>
+               </div>
+           </section>
+   </main>
+</body>
+</html>
